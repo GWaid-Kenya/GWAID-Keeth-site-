@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+.hero {
+  background: #f4f4f4;
+  padding: 2rem;
+  text-align: center;
+}
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.features div {
+  max-width: 200px;
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+.gallery figure {
+  margin: 1rem;
+  text-align: center;
+}
+.gallery img {
+  max-width: 200px;
+  height: auto;
+}
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
